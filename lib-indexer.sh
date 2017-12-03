@@ -30,7 +30,7 @@ while true; do
   echo "  2   | Build Search Index";
   echo "  3   | Enter Search Query";
   echo "  4   | Quit";
-  echo " --- Choose a program operation mode: ";
+  echo " --- Please enter operation mode: ";
   read input
 
   if [ $input == '1' ]; then
@@ -45,7 +45,6 @@ while true; do
   elif [ $input == '4' ]; then
     clear
     exit 0
-
   fi
 
 done
